@@ -1,0 +1,191 @@
+[debug] [2018-10-31T18:12:13.111Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T18:12:13.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Isabella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-10-31T18:12:13.114Z] CLI Version:   6.0.0
+[debug] [2018-10-31T18:12:13.114Z] Platform:      win32
+[debug] [2018-10-31T18:12:13.115Z] Node Version:  v10.9.0
+[debug] [2018-10-31T18:12:13.116Z] Time:          Wed Oct 31 2018 15:12:13 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-31T18:12:13.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T18:12:13.130Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T18:12:13.131Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Isabella\Documents\Laboratoria\Sprint6\react_proj\reactplan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-31T18:12:21.321Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-31T18:12:21.322Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-31T18:12:21.526Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-31T18:12:21.656Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2018-10-31T18:12:21.993Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1047:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:629:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T18:12:37.647Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T18:12:37.650Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Isabella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-10-31T18:12:37.651Z] CLI Version:   6.0.0
+[debug] [2018-10-31T18:12:37.651Z] Platform:      win32
+[debug] [2018-10-31T18:12:37.651Z] Node Version:  v10.9.0
+[debug] [2018-10-31T18:12:37.652Z] Time:          Wed Oct 31 2018 15:12:37 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-31T18:12:37.652Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T18:12:37.667Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T18:12:37.668Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Isabella\Documents\Laboratoria\Sprint6\react_proj\reactplan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-31T18:12:49.305Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2018-10-31T18:12:49.617Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1047:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:629:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T18:24:55.210Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T18:24:55.214Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Isabella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-10-31T18:24:55.214Z] CLI Version:   6.0.0
+[debug] [2018-10-31T18:24:55.214Z] Platform:      win32
+[debug] [2018-10-31T18:24:55.214Z] Node Version:  v10.9.0
+[debug] [2018-10-31T18:24:55.215Z] Time:          Wed Oct 31 2018 15:24:55 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-31T18:24:55.216Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T18:24:55.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T18:24:55.232Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Isabella\Documents\Laboratoria\Sprint6\react_proj\reactplan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-31T18:25:04.384Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2018-10-31T18:25:30.537Z] Error: Client network socket disconnected before secure TLS connection was established
+    at TLSSocket.onConnectEnd (_tls_wrap.js:1084:19)
+    at Object.onceWrapper (events.js:273:13)
+    at TLSSocket.emit (events.js:187:15)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at endReadableNT (_stream_readable.js:1085:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: Server Error. Client network socket disconnected before secure TLS connection was established
+[debug] [2018-10-31T18:33:45.671Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T18:33:45.675Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Isabella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-10-31T18:33:45.676Z] CLI Version:   6.0.0
+[debug] [2018-10-31T18:33:45.676Z] Platform:      win32
+[debug] [2018-10-31T18:33:45.676Z] Node Version:  v10.9.0
+[debug] [2018-10-31T18:33:45.677Z] Time:          Wed Oct 31 2018 15:33:45 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-31T18:33:45.677Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T18:33:45.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T18:33:45.693Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Isabella\Documents\Laboratoria\Sprint6\react_proj\reactplan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-31T18:33:55.670Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2018-10-31T18:33:56.061Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1047:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:629:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2018-10-31T18:35:37.998Z] ----------------------------------------------------------------------
+[debug] [2018-10-31T18:35:38.002Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Isabella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-10-31T18:35:38.003Z] CLI Version:   6.0.0
+[debug] [2018-10-31T18:35:38.003Z] Platform:      win32
+[debug] [2018-10-31T18:35:38.003Z] Node Version:  v10.9.0
+[debug] [2018-10-31T18:35:38.004Z] Time:          Wed Oct 31 2018 15:35:38 GMT-0300 (Brasilia Standard Time)
+[debug] [2018-10-31T18:35:38.004Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-31T18:35:38.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-31T18:35:38.021Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Isabella\Documents\Laboratoria\Sprint6\react_proj\reactplan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-31T18:35:47.662Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2018-10-31T18:35:48.095Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1047:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:442:20)
+    at TLSSocket._finishInit (_tls_wrap.js:629:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
